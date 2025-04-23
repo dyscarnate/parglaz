@@ -1,0 +1,2 @@
+# parglaz
+fast parquet analyze 
