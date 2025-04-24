@@ -4,3 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+clap = {version="4.0", features = ["derive"]}          # Command-line argument parsing
+structopt = "0.3"     # High-level argument parsing
+serde = "1.0"        # Serialization/deserialization
+log = "0.4"          # Logging utility
+parquet = "41.0"
+arrow2 = {version ="0.18", features = ["io_parquet",]}
+tokio = { version = "1.0", features = ["full"] }
